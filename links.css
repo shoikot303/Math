@@ -1,0 +1,102 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: wheat;
+}
+
+.navbar {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .home-button {
+    margin-left: 145px;
+    font-size: 40px;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+
+  .home-button:hover{
+    background-color: #6c757d;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  .dropbtn {
+    width: 150px;
+    margin-right: 145px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #6c757d;
+    padding: 6px;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+  }
+
+  .dropbtn:hover{
+    background-color: #464c52;
+  } 
+  
+  .dropdown-content {
+    font-size: 25px;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 10px;
+  }
+  
+  .dropdown-content a {
+    color: #333;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .dropdown-content a:hover {
+    padding: 15px;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+
+.video-container{
+    margin-top: 100px;
+    column-gap: 50px;
+    row-gap: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.video-container iframe{
+  transition: 0.3s;
+    border: 7px solid rgb(0, 236, 39);
+    width: 400px;
+    height: 250px;
+}
+
+.video-container iframe:hover{
+  transform: scale(1.1)
+}
