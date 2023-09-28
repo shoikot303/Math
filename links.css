@@ -18,7 +18,7 @@ body{
   }
   
   .home-button {
-    margin-left: 145px;
+    margin-left: ;
     font-size: 40px;
     color: #fff;
     text-decoration: none;
@@ -32,12 +32,12 @@ body{
   .dropdown {
     position: relative;
     display: inline-block;
-    margin-left: 20px;
+    margin-left: ;
   }
   
   .dropbtn {
     width: 150px;
-    margin-right: 145px;
+    margin-right: ;
     font-size: 20px;
     color: #fff;
     background-color: #6c757d;
